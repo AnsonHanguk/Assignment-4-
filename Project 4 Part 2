@@ -1,0 +1,47 @@
+// Anson Project 4 Part 2 (Using COntinue to Skip over Numbers Within a for loop)
+// Auther: Anson
+// Class: CS161 Spring 2025
+// 4/30/2025
+// Java program that use a for loop to print numbers 1-10 but skip 4&7
+
+
+
+/*
+ * Program Start
+ * Set up class
+ * establish variable i and a for loop that will print numbers until 10
+ * create an if statement to use a continue in
+ * create the if statement with the condition of i being 4 or 7
+ * if the condition is met, use continue to skip over both 4 and 7
+ * then the system will print i, the numbers 1-10 using continues to skip 4 and 7
+ * end program
+
+ */
+
+
+//set up class
+public class breaks {
+public static void main(String[]args){
+	
+//create for loop
+System.out.println ("Printing 1-10 using continue to skip over 4 and 7");
+	
+	for(int i =1; i <=10; i++) {
+		
+		//create an if statement to use a continue
+	
+		if(i == 4 || i==7) {	//skip 4 and 7 two lucky numbers
+			continue;
+			
+			
+		}
+		//print i without 4 and 7
+		System.out.println (i);
+	}
+		
+		
+}
+
+
+}
+///end
