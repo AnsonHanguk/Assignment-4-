@@ -1,0 +1,70 @@
+// Anson Project 4 Part 1 (loops printing numbers from 1-10)
+// Auther: Anson
+// Class: CS161 Spring 2025
+// 4/30/2025
+// Java program that print for, do, and while loops
+
+
+
+/*
+ * Java program that creates a for loop, do while group and a while loop
+ * the program will start by printing the name of the group it will run to the console
+ * 
+ * Next it will set up a variable, in this case:
+ * i = for loops
+ * j = while groups
+ * w = do while groups
+ * 
+ * first the program creates a for loop using I 
+ * then it print numbers in order until it reaches 10
+ * 
+ * same thing, next with while groups
+ * j is 
+ * program runs while j is less than 10 
+ * 
+ * lastly is do while
+ * 
+ * in the do while loop we make it so the program prints w while it meets the condition of being less than ten
+ * 
+ * THen program ends
+ */
+
+
+//set up class
+public class loops{
+public static void main(String[]args){
+	
+//for loops
+System.out.println ("for loops");
+	
+	for(int i =1; i <=10; i++) {
+		System.out.println (i);
+		
+	}
+		
+		//While loops
+	{
+		System.out.println ("while loops");
+		int j = 1;
+		while(j <=10) {
+			System.out.println (j);
+			j++;
+		}
+		//do....while loops
+		System.out.println ("DO while");
+		
+		int w = 1;
+		
+		do {
+			System.out.println (w);
+			w++;
+		} while(w <=10);
+		
+	}
+	
+		
+}
+
+
+}
+///end
