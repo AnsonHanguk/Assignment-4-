@@ -1,0 +1,49 @@
+// Anson Project 4 Part 3 (Print the sum of first 10 natural numbers)
+// Auther: Anson
+// Class: CS161 Spring 2025
+// 4/30/2025
+// Java program that use a for loop to print numbers 1-10 but skip 4&7
+
+
+
+/*
+ * Program Start
+ * 
+ * Start program 
+ * 
+ * set up class
+ * 
+ * print what the program will do, in this case print the sum of first 1o numbers
+ * 
+ * create a variable called sum and set equal to 0 
+ * 
+ * create variable i 
+ * 
+ * establish a for loop that increases i 
+ * 
+ * make sum variable = the sum + i
+ * 
+ * print the sum, which should be 55
+ */
+
+
+//set up class
+public class sum {
+public static void main(String[]args){
+	
+//create for loop
+System.out.println ("Printing sum of first 10 natural numbers");
+	int sum = 0;
+	for(int i = 1; i <=10; i++) {
+		
+	sum = sum + i;
+	}
+//print i without 4 and 7
+System.out.println (sum);
+	}	
+		
+	
+	}
+		
+
+///end
